@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ebebeb;
+}
+header {
+  background-color: #fff;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  max-width: 1100px;
+}
+
+.header__searchBoxContainer {
+  display: flex;
+  align-items: baseline;
+}
+
+.header__navLinks {
+  display: flex;
+  align-items: center;
+}
+
+.header__mr {
+  margin-right: 17px;
+}
+
+.post__container {
+  max-width: 370px;
+  background-color: #fff;
+  border: 1px solid rgb(213, 213, 213);
+  margin: 20px auto;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.post__postHeaderLeft {
+  display: flex;
+  align-items: center;
+}
+
+.post__deletePostIcon {
+  cursor: pointer;
+  color: red;
+}
+
+.post__header p {
+  margin-left: -5px;
+  font-weight: bold;
+}
+
+.post__imageContainer img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.post__caption {
+  padding: 15px;
+}
+
+.post__commentInputContainer {
+  display: flex;
+  padding: 10px 15px;
+}
+
+.post__commentInputContainer .MuiFormControl-root.MuiTextField-root {
+  width: 100%;
+}
+
+.post__commentsListContainer .post__commentUserName {
+  font-weight: bold;
+}
+
+.post__singleCommentContainer {
+  padding: 5px 15px;
+}
+
+.post__singleCommentDetailContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post__deleteIcon {
+  color: red;
+  cursor: pointer;
+}
+.post__editIcon {
+  color: grey;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.post__editCommentInputRow {
+  display: flex;
+  padding: 5px 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__editCommentInput {
+  flex: 1;
+}
+
+.post__cancelEditIcon {
+  color: red;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.post__saveEditIcon {
+  color: green;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.home__introHeading,
+.home__introSub {
+  text-align: center;
+  margin: 20px;
+}

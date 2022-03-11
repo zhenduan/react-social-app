@@ -1,0 +1,32 @@
+.createPost__section {
+  max-width: 800px;
+  margin: auto;
+  padding: 60px 20px;
+}
+.createPost__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 30px 20px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.createPost__mb {
+  margin-bottom: 20px !important;
+}
+
+.createPost__inputField {
+  width: 80%;
+}
+
+.createPost__uploadBtnRow {
+  display: flex;
+  align-items: center;
+}
+
+img.createPost__previewImg {
+  max-width: 300px;
+}
